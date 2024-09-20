@@ -43,3 +43,13 @@ This dataset includes a [metainfo.csv](https://github.com/kennedyk1/MID-3K/raw/m
     <tr><td>Images Resolution</td><td><em>640x512 pixels</em></td></tr>
     <tr><td>Annotation Format</td><td><em>YOLO normalized xywh format<BR><b>class x_center y_center width height</b></em></td></tr>
 </table>
+
+## Visit our datasets through the links below.
+- MID-1K - [Multimodal ISR Dataset with 1100 images](https://kennedyk1.github.io/MID-1K/) (*RGB, thermal and depth*)
+- MID-3K - [Multimodal ISR Dataset with 3000 images](https://kennedyk1.github.io/MID-3K/) (*RGB, thermal, depth and intensity*)
+
+
+## Please read and cite our work!
+
+- Sousa, E., Mota, K. O., Gomes, I. P., Garrote, L., Wolf, D. F., & Premebida, C. (2023, September). **Late-Fusion Multimodal Human Detection Based on RGB and Thermal Images for Robotic Perception**. In *2023 European Conference on Mobile Robots (ECMR)* (pp. 1-6). IEEE.
+
