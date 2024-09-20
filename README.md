@@ -1,4 +1,28 @@
-Main Repo Dataset: https://github.com/kennedyk1/MID-3K
+# MID-3K (Multimodal ISR Dataset with 3000 images)
+## RGB Modality Repository
+
+Main Repository with all info here -> [https://github.com/kennedyk1/MID-3K](https://github.com/kennedyk1/MID-3K)
+
+
+This dataset, collected by the [ISR (Institute of Systems and Robotics)](https://www.isr.uc.pt/) Team, is a new multi-sensory dataset that was organized, calibrated, curated, and annotated. The sensory data was collected using ROS and a Jackal Clearpath mobile robot (see Fig. 1), operating in two indoor environments: three floors of the [DEEC](https://www.uc.pt/fctuc/deec/) building and two floors of [DEI](https://www.uc.pt/fctuc/dei/) building at the [University of Coimbra](https://www.uc.pt/), Polo 2, Portugal.
+
+This main repository provides information about the Dataset, which consists of 3,083 scenes, each containing 4 images from different modalities (RGB, thermal, depth, and intensity). The images are organized by modality into separate repositories, with the links listed below:
+
+- [MID-3K RGB Modality](https://github.com/kennedyk1/MID-3K-rgb): Contains RGB images (**This repository**).
+- [MID-3K Thermal Modality](https://github.com/kennedyk1/MID-3K-thermal): Contains thermal images.
+- [MID-3K Depth Modality](https://github.com/kennedyk1/MID-3K-depth): Contains depth data captured by LiDAR.
+- [MID-3K Intensity Modality](https://github.com/kennedyk1/MID-3K-intensity): Contains intensity data captured by LiDAR.
+
+You can clone any of these modalities to your local environment using the `git clone` command. Simply open the terminal and follow these steps:
+
+   ```bash
+   git clone https://github.com/kennedyk1/MID-3K-rgb
+   git clone https://github.com/kennedyk1/MID-3K-thermal
+   git clone https://github.com/kennedyk1/MID-3K-depth
+   git clone https://github.com/kennedyk1/MID-3K-intensity
+   ```
+This dataset includes a [metainfo.csv](https://github.com/kennedyk1/MID-3K/raw/main/metainfo.csv) file that provides detailed information about each image, including the collection date and time, department, floor, and the number of thermal and RGB annotations. This file can be useful for splitting the dataset into training, validation, and test sets for CNN training, allowing for organized and efficient dataset management.
+
 
 <table>
     <tr><td colspan="2" align="center"><b>Camera Info</b></td></tr>
